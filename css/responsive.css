@@ -1,0 +1,128 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+     .home-page {
+         max-width: 80%;
+         margin: auto;
+     }
+     .nevbar-responsive{
+         max-width: 80%;
+         margin: auto;
+     }
+     .home-titel h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .Provide-title h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .food-resturent{
+        max-width: 80%;
+         margin: auto;
+    }
+    .food-company-title h1{
+        font-size: 30px;
+        font-weight: 600;
+        padding-bottom: 30px;
+      }
+      .food-company-title{
+        margin-top: 20px;
+       
+     }
+     .Provide-title h2{
+        font-size: 30px; 
+    }
+    .menu-card{
+        max-width: 80%;
+        margin: auto;
+    }
+    .ABOUT-FOOD h2{
+        font-size: 30px ;
+        
+     }
+    .Panpie-Burgers-titel h1{
+        font-size: 30px ;
+       
+    }
+    .display-none{
+        display: none;
+    }
+    .respocsive{
+        max-width: 80%;
+        margin: auto;
+    }
+    .vijitor-title h1{
+        font-size: 25px;
+      }
+    .food-Menu-order{
+        max-width: 80%;
+        margin: auto;
+    }
+    .item-name a{
+        margin-bottom: 150px;
+    }
+
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .home-titel h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .Provide-title h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .food-company-title h1{
+        font-size: 40px;
+        font-weight: 600;
+        padding-bottom: 30px;
+      }
+      .food-company-title{
+        margin-top: 40px;
+       
+     }
+     .Provide-title h2{
+        font-size: 40px; 
+    }
+    .Panpie-Burgers-titel h1{
+        font-size: 40px ;
+       
+    }
+    .respocsive{
+        max-width: 80%;
+        margin: auto;
+    }
+    .food-Menu-order{
+        max-width: 90%;
+        margin: auto;
+    }
+    .item-name a{
+        margin-bottom: 150px;
+    }
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .home-titel h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .food-Menu-order{
+        max-width: 96%;
+        margin: auto;
+    }
+ 
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+}

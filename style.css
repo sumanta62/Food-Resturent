@@ -1,0 +1,496 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+}
+.container a img{
+   width: 200px;
+}
+.nevbar-bg .nav-item {
+    background-color: transparent;
+}
+.home-bacground{
+    background-image: url('img/bg-img1.png');
+    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+.home-page{
+    max-width: 90%;
+    margin: auto;
+}
+.resturent-home {
+    display: flex;
+}
+.nav-bar-menu li a{
+    color: rgb(68, 53, 53);
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.5s;
+}
+.resturent-fast-contuct {
+    padding: 20px 0;
+    color: white;
+    column-gap: 20px;
+    font-size: 18px;
+}
+.resturent-fast-contuct a{
+    color: white;
+    padding: 12px 40px ;
+    background-color: #f2ae0f;
+    border-radius: 50px;
+    transition: 0.5s;
+    
+} 
+.resturent-fast-contuct a:hover{
+    color: rgb(12, 12, 12);
+    background-color: #fafafa;
+} 
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+/*  */
+.navbar{
+    box-shadow: none;
+}
+
+.navbar-nav .nav-item {
+  list-style-type: none;
+}
+.navbar-nav .nav-item a{
+    color: white;
+    font-size: 20px;
+}
+.navbar-nav .nav-item a:hover{
+    color: rgb(6, 231, 39);
+   
+}
+.home-titel a{
+    color: white;
+    padding: 20px 40px ;
+    background-color: #ffb300;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.home-titel a:hover{
+    color: rgb(248, 199, 0);
+    background-color: #ffffff;
+}
+.home-titel{
+    margin-top: 80px;
+    color: white;
+}
+.home-titel h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+/*   <!-- homw-page end --> */
+.Provide-section{
+    max-width: 100%;
+    padding: 70px 0;
+}
+.Provide-title{
+    text-align: center;
+    font-weight: 700;
+}
+.Provide-title h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.card-title h4{
+    font-size: 30px;
+    margin-left: 10px;
+    color: rgb(248, 129, 13);
+}
+.card:hover{
+   box-shadow: rgb(0, 0, 0);
+ }
+.card-title h6{
+    margin-left: 10px;
+    color: rgb(116, 105, 105);
+}
+/* <!--Provide-section end  --> */
+.food-company-section{
+    padding-top: 40px;
+}
+.food-resturent{
+    max-width: 90%;
+     margin: auto;
+}
+
+.food-company-title h1{
+   font-size: 50px;
+   font-weight: 600;
+   padding-bottom: 30px;
+ }
+.food-company-title{
+   margin-top: 120px;
+}
+.food-company-section{
+    background-image: url('img/man-bg2.png');
+    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+.food-list{
+    margin-top: 25px;
+}
+.food-company-title a{
+    color: white;
+    padding: 16px 40px ; 
+    background-color: rgb(248, 129, 13);
+    border-radius: 50px; 
+    transition: 0.5s;
+}
+.food-company-title a:hover{
+    color: black;
+    padding: 16px 40px ; 
+    background-color: rgb(238, 145, 51);
+    border-radius: 50px; 
+}
+/* <!-- food-company-section end --> */
+.food-Menu{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('img/secton-6.jpg');
+    max-width: 100%;
+    /* height: 100vh; */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+    position: sticky;
+}
+.Provide-title h2{
+    font-weight: 700;
+    line-height: -0px;
+    margin-top: 40px;
+    font-size: 50px;
+    color: white;
+}
+.food-Menu-order{
+    max-width: 96%;
+    margin: auto;
+}
+.food-menu-section{
+    display: flex;
+    background-color: white;
+    line-height: 40px;
+}
+.item-name {
+   margin-bottom: 30px;
+}
+.item-name h4{
+    font-weight: 700;
+}
+.item-name h1{
+    font-weight: 700;
+    color: rgb(248, 129, 13);
+    margin-bottom: 30px;
+}
+.colls {
+    padding: 0px;
+}
+.item-name a{
+    font-weight: 700;
+    color: white;
+    padding: 16px 40px ; 
+    background-color: rgb(248, 129, 13);
+    border-radius: 50px; 
+    transition: 0.5s;
+   
+}
+.item-name a:hover{
+    background-color: rgb(213, 120, 26);
+    color: black;
+   
+}
+/* food-company-section end */
+.Featured{
+    background-color: #dcdcdc;
+    padding: 60px 0;
+}
+.menu-card{
+    text-align: center;
+    margin: auto;
+   
+}
+.menu-card .card{
+  border-radius: 0;
+}
+.card h1{
+    color: rgb(248, 129, 13);
+    font-size: 30px;
+}
+.card p{
+    max-width: 90%;
+    margin: auto;
+}
+.card-img img{
+    width: 80px;
+}
+/* <!-- Featured end --> */
+.Panpie-Burgers{
+    padding: 80px 0;
+}
+.video{
+    width: 400px;
+    position: relative;
+}
+.video-img{
+    position: absolute;
+    max-width: 100%;
+    bottom: 43%; 
+    justify-content: center; 
+    align-items: center; 
+     text-align: center;  
+}
+.video-img a img{
+  width: 90px;
+  margin-left: 140px;
+}
+.food-list p{
+    margin-left: 10px;
+}
+.Panpie-Burgers-titel h1{
+    font-size: 50px ;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.get-button a {
+    color: white;
+   padding: 12px 40px;
+    background-color: rgb(248, 129, 13);
+    border-radius: 50px; 
+    transition: 0.5s;
+    margin-bottom: 30px;
+}
+.get-button a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 133, 36);
+}
+.ABOUT-FOOD-SECTION{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('img/bbo.jpg');
+ 
+    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+.daziy{
+    background-color: rgb(248, 129, 13);
+    color: white;
+    text-align: center;
+     padding-bottom: 8px;
+}
+/*   <!-- Panpie-Burgers end --> */
+.ABOUT-FOOD{
+    text-align: center;
+}
+.ABOUT-FOOD h2{
+   font-size: 50px ;
+   font-weight: 700;
+   color: white;
+}
+/*  */
+.Approdable-section{
+    padding: 60px 0;
+}
+.ESSENTIAL-PRICE{
+    max-width: 100%;
+    height: 480px;
+    padding: 30px;
+    border: 3px solid rgb(230, 133, 36);
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    transition: 0.5s;
+}
+.ESSENTIAL-PRICE:hover{
+    background-color: rgb(232, 149, 66);
+    color: white;
+}
+.ESSENTIAL-PRICE:hover h3{
+    color: white;
+}
+.ESSENTIAL-PRICE h3{
+    font-weight: 700;
+    color: rgb(248, 129, 13);
+    padding: 20px;
+}
+.ESSENTIAL-PRICE .get-button{
+    position: absolute;
+    bottom: 30px;
+    margin: auto;
+    margin-left: 60px;
+    align-items: center;
+}
+.prices{
+    background-color: rgb(232, 149, 66);
+    color: white;
+}
+.prices h3{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+/*  <!-- Approdable-section end --> */
+.Latest-section{
+    background-image: url('img/bg-light-img.png');
+    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding: 70px 0;
+}
+.latest-card img{
+    width: 100%;
+}
+.latest-card {
+    width: 95%;
+}
+.latest-card .card{
+    border-radius: 0;
+    background-color: antiquewhite;
+}
+.latest-card-title h5{
+  padding: 20px 10px;
+  font-weight: 700;
+  font-size: 25px;
+}
+/*  <!-- Latest-section end --> */
+.Customer-slid{
+    display: flex;
+    line-height: 30px;
+    border-left: 3px solid rgb(247, 103, 0) ;
+    padding: 0 20px;
+    width: 100%;
+    height: 250px;
+    box-shadow: 2px solid gray;
+}
+.Customer-slid-img img {
+    border-radius: 50%;
+}
+.Customer-title{
+    margin-left: 40px;
+}
+.Customer-title h5{
+    font-weight: 700;
+    padding: 12px 0;
+}
+/* <!-- scrolbar start -->  */
+.contuct-us-section{
+    background-image: url('img/man-bg2.png');
+    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 70px ;
+}
+.form-control{
+    border-radius: 0;
+    width: 70%;
+    height: 50px;
+    margin: auto;
+}
+.submit-button{
+ width: 70%;
+ margin: auto;
+}
+.vijitor-title {
+   text-align: center;
+   padding: 20px 0;
+   background-color: rgb(247, 103, 0) ;
+}
+.vijitor-title h1{
+   color: white;
+   font-weight: 700;
+   font-size: 40px;
+ }
+ .vijitor-address h4{
+     padding: 30px 0;
+     text-align: center;
+ }
+.submit-button button{
+   width: 100%;
+   height: 50px;
+   color: #fafafa;
+   background-color:rgb(247, 103, 0)  ;
+   border-radius: 50px;
+    margin: auto;
+    border: 0;
+    transition: 0.5s;
+   }
+   .submit-button button:hover{
+    background-color:rgb(238, 127, 48)  ;
+    color: black;
+ }
+.futter-top{
+    background-color: rgb(255, 255, 255);
+    padding: 40px 0;
+}
+/*  <!-- contucu us end --> */
+.container-last-icons  {
+    margin-top: 30px;
+    column-gap: 25px;
+   display: flex;
+ }
+ .container-last-icons a i {
+     color: white;
+     background-color: rgb(247, 103, 0) ;
+      padding: 10px ;
+     font-size: 20px;
+     border-radius: 50%;
+ }
+ .container-last-icons i:hover {
+     color: rgba(35, 56, 247, 0.871);
+ }
+ .dot li{
+    list-style-type: none;
+    line-height: 35px;
+}
+.dot img{
+    column-gap: 25px;
+}
+.scrolbar{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(247, 103, 0);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 6px;
+    align-items: center;
+    position: fixed;
+    right: 30px;
+    bottom: 70px;
+    display: none;
+}
+
+.scrolbar i{
+    font-size: 40px;
+    color: black;
+}
+
+
+.futter-buttom {
+    background-color: rgb(48, 37, 37);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
